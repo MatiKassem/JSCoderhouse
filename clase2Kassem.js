@@ -1,4 +1,4 @@
-let nombreUsuario = prompt("Ingrese su nombre completo");
+/* let nombreUsuario = prompt("Ingrese su nombre completo");
 let edadUsuario = prompt("Ingrese su edad");
 parseInt(edadUsuario);
 
@@ -17,5 +17,5 @@ else if(edadUsuario > 35 && edadUsuario <=39){
 }
 else{
     alert("Bienvenido "+ nombreUsuario +" al torneo Nacional Master Argentino de natación su categoría es LIBRE")
-};
+}; */
 

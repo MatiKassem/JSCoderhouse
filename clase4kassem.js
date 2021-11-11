@@ -10,12 +10,12 @@ let netoTeclado = 300;
 let netoParlante = 400;
 let descuento = 0;
 
-if(medioDePago == "EFECTIVO" && numer(numeroUsuario <= 10)){
-    descuento + 100;
-}else if(medioDePago == "TARJETA" && number(numeroUsuario <= 10)){
-    descuento + 50;
+if(medioDePago == "EFECTIVO" && numeroUsuario <= 10){
+    descuento = descuento + 100;
+}else if(medioDePago == "TARJETA" && numeroUsuario <= 10){
+    descuento = descuento + 50;
 }else{
-    descuento;
+    descuento = descuento;
 }
 
 let valorFinal = (neto,iva,descuento) => neto/0.8 + iva - descuento;
